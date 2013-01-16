@@ -1,6 +1,48 @@
-*.class
+# Please keep in mind:
+# - If you need to ignore files on your local machine only, please use .git/info/exclude instead .gitignore
+# - Project specified ignore rules must be located in project directory only
 
-# Package Files #
-*.jar
-*.war
-*.ear
+# LaTex
+*.pdf
+*.dvi
+*.log
+*.out
+*.aux
+# Eclipse project files
+.settings
+.classpath
+.project
+.metadata
+.mymetadata
+.checkstyle
+
+# IntelliJ Idea project files
+.idea
+.gradle
+*.iml
+*.ipr
+*.iws
+atlassian-ide-plugin.xml
+
+# Netbeans project files
+nbproject
+
+# Always ignore these directories/files
+target
+logs
+classes
+
+#Maven version-plugin backup-files ignore
+*.versionsBackup
+
+# Maven release plugin files
+release.properties
+pom.xml.releaseBackup
+
+#test-output
+test-output
+
+/poulpe-view/poulpe-web-controller/.springBeans
+
+# Mac OS X system files
+.DS_Store
