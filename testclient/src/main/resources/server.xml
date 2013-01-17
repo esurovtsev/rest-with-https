@@ -1,0 +1,6 @@
+	<Connector 
+		port="8443" protocol="org.apache.coyote.http11.Http11NioProtocol" SSLEnabled="true"
+		maxThreads="150" scheme="https" secure="true"
+        keystoreFile="${user.home}/.keystore/serverKey.jks" keystorePass="password"
+		clientAuth="false" sslProtocol="TLS"
+	/>
